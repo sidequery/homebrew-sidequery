@@ -1,6 +1,6 @@
 cask "sidequery" do
-  version "0.0.1"
-  sha256 "2233adbab4d3dae2b870ef9c840e6c824f7ed4d9400044fe61cb213d4750033f"
+  version "0.0.2"
+  sha256 "b90faa3b2997e25e5cde4fa78322d783687362034612f774ecb6668a0b0683a8"
 
   url "https://github.com/sidequery/sidequery-native-releases/releases/download/v#{version}/Sidequery-#{version}.zip"
   name "Sidequery"
@@ -11,7 +11,7 @@ cask "sidequery" do
 
   zap trash: [
     "~/Library/Application Support/Sidequery",
-    "~/Library/Preferences/com.sidequery.sidequery.plist",
-    "~/Library/Saved Application State/com.sidequery.sidequery.savedState"
+    "~/Library/Preferences/com.sidequery.mac.plist",
+    "~/Library/Saved Application State/com.sidequery.mac.savedState"
   ]
 end
