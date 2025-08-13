@@ -1,6 +1,6 @@
 cask "sidequery" do
-  version "0.0.8"
-  sha256 "19f8fd41d3677ff15500fb013ff6617b2250d7e000579b0d4ad8a8b93a7a672d"
+  version "0.0.9"
+  sha256 "bbbec04e81329a8d6371325c62e99dbba2f57b02b14e3a98e5f2bd82184b0e5c"
 
   url "https://github.com/sidequery/sidequery-native-releases/releases/download/v#{version}/Sidequery-#{version}.dmg"
   name "Sidequery"
